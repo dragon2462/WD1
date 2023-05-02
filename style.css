@@ -1,13 +1,6 @@
 html, body{
     background-color: black;
   }
-
-  html, section{
-    text-align: flex;
-    color: red;
-    font-size: 24px;
-    font-family: Times New Roman;
-  }
   html, h1{
     display: flex;
     justify-content: center;
@@ -15,7 +8,7 @@ html, body{
     text-align: center;
   }
   html, section{
-    display: left;
+    
     text-align: left;
     justify-content: left;
     align-items: left;
@@ -23,6 +16,8 @@ html, body{
   html, nav{
     font-family: Times New Roman;
     font-size: 36px;
+    display: flex ;
+    justify-content: right;
   }
   /* Dropdown Button */
   .dropbtn {
