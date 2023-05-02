@@ -2,11 +2,16 @@ html, body{
     background-color: black;
     
 }
-html, e1{
+html, section{
     text-align: left;
     color: red;
     font-size: 24px;
     font-family: Times New Roman;
+}
+html, h1{
+    image-resolution: 360px*360px;
+    display: flex;
+    position: center, absolute;
 }
 nav {
     display: flex;
