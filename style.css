@@ -1,6 +1,14 @@
 html, body{
     background-color: black;
   }
+  .logo {
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100px;
+    height: 100px;
+  }
+  
   html, section{
     text-align: flex;
     color: red;
