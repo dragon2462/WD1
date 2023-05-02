@@ -2,3 +2,6 @@ html, body{
 background-color: black;
 text-emphasis-color: white;
 }
+html, p{
+    text-align: left;
+}
