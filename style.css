@@ -13,6 +13,12 @@ html, body{
     align-items: center;
     text-align: center;
   }
+  html, section{
+    display: left;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+  }
   html, nav{
     font-family: Times New Roman;
     font-size: 36px;
@@ -51,5 +57,5 @@ html, body{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .drop
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
