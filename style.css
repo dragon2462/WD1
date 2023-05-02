@@ -2,7 +2,11 @@ html{
 background-color: black;
 text-emphasis-color: white;
 }
-p{
+html, body{
+    background-color: black;
+    background-image: image-set("download.jpeg")
+}
+html, p{
     text-align: left;
     color: red;
 }
