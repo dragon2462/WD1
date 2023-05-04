@@ -1,7 +1,11 @@
 html{
   background-color: white;
 }
-
+section{
+  font-color: red;
+  font-family: Times New Roman;
+  font-size: 36px;
+}
 nav {
   float: right;
   text-align: right;
