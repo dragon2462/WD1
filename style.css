@@ -1,18 +1,6 @@
 html{
   background-color: black;
 }
-html, h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 .hamburger {
   display: none;
