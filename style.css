@@ -2,23 +2,22 @@ html{
   background-color: black;
 }
 
-.hamburger {
-  display: none;
+nav {
+  float: right;
+  text-align: right;
 }
 
-@media (max-width: 768px) {
-  .nav-bar {
-    display: none;
-  }
-  
-  .hamburger {
-    display: block;
-  }
-  
-  .hamburger .line1, .hamburger .line2, .hamburger .line3 {
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin: 6px 0;
-  }
+.nav-bar {
+  margin-top: 0;
+  padding-top: 0;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
 }
