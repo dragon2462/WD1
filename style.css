@@ -1,5 +1,5 @@
 html{
-background-color: black;
+  background-color: black;
 }
 html, h1 {
   display: flex;
@@ -8,7 +8,7 @@ html, h1 {
   text-align: center;
 }
 
-.logo img {
+.logo {
   position: absolute;
   top: 0;
   left: 0;
